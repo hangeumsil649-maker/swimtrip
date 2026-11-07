@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>쉼_trip 숙소 큐레이션</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700&family=Noto+Serif+KR:wght@500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="top">
+  <div class="notice" id="notice" role="region" aria-label="제휴 마케팅 안내">
+    <div class="marquee" aria-hidden="true"><div class="track" id="track"></div></div>
+    <span class="sr">이 포스팅은 제휴마케팅 활동의 일환으로, 예약 및 구매가 발생하면 일정액의 수수료를 제공받을 수 있습니다.</span>
+    <button class="mq-toggle" id="mq" type="button" aria-pressed="false">멈춤</button>
+  </div>
+  <header class="bar">
+    <div class="wrap">
+      <a class="logo-link" href="#home" aria-label="쉼_trip 홈"><span class="logo-crop"><img src="images/brand/logo.png" alt="쉼_trip 로고"></span></a>
+    </div>
+  </header>
+</div>
+
+<main id="app"></main>
+
+<footer>
+  <div class="wrap">
+    <div><strong>쉼_trip</strong> 국내 숙소 큐레이션</div>
+    <div>이 사이트의 예약 링크는 쿠팡 파트너스 활동의 일환으로, 이에 따른 일정액의 수수료를 제공받습니다. 예약과 결제는 쿠팡트래블에서 진행되며, 이용자가 추가로 부담하는 금액은 없습니다.</div>
+    <div>요금, 객실 구성, 운영 시간은 확인일 기준이며 수시로 바뀔 수 있습니다. 예약 전 쿠팡트래블 상세 페이지에서 최종 내용을 확인해 주세요.</div>
+  </div>
+</footer>
+
+<script src="data/config.js"></script>
+<script src="data/stays.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
